@@ -1,0 +1,146 @@
+/home/aniruddha/anaconda3/bin/python3.7 /mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py
+Inserted the BattleTank at location: 1, health:1, range:2, team:1
+Inserted the EnemyArmor at location: 5, health:1, range:1, team:2
+Inserted the Ammo at location: 3, health:1
+Inserted the Ammo at location: 9, health:1
+Inserted the Ammo at location: 0, health:1
+Inserted the Ammo at location: 6, health:1
+Ammo cannot be inserted at location 6 because something already exists there.
+Ammo cannot be inserted at location 0 because something already exists there.
+Ammo cannot be inserted at location 0 because something already exists there.
++-----------------------------------------------------------------------------------+
+|  0      | 1        | 2  | 3      | 4  | 5        | 6      | 7  | 8  | 9      | 10  |
+|   AMO,  |  PLR_T,  |    |  AMO,  |    |  ENM_T,  |  AMO,  |    |    |  AMO,  |    |
++-----------------------------------------------------------------------------------+
+Agent movement: BattleTank at location: 0, health:1, range:2, team:1 ; from location:1
+Agent action completed
++-----------------------------------------------------------------------------------+
+|  0            | 1  | 2  | 3      | 4  | 5        | 6      | 7  | 8  | 9      | 10  |
+|   AMO,PLR_T,  |    |    |  AMO,  |    |  ENM_T,  |  AMO,  |    |    |  AMO,  |    |
++-----------------------------------------------------------------------------------+
+Agent movement: EnemyArmor at location: 6, health:1, range:1, team:2 ; from location:5
+Agent action completed
++-----------------------------------------------------------------------------------+
+|  0            | 1  | 2  | 3      | 4  | 5  | 6            | 7  | 8  | 9      | 10  |
+|   AMO,PLR_T,  |    |    |  AMO,  |    |    |  AMO,ENM_T,  |    |    |  AMO,  |    |
++-----------------------------------------------------------------------------------+
+Prioritizing highest profit location : profit = (target_location_items_priority - health damage dealt in past at the location)
+Agent movement: BattleTank at location: 1, health:1, range:2, team:1 ; from location:0
+Agent action completed
++-------------------------------------------------------------------------------+
+|  0  | 1        | 2  | 3      | 4  | 5  | 6            | 7  | 8  | 9      | 10  |
+|     |  PLR_T,  |    |  AMO,  |    |    |  AMO,ENM_T,  |    |    |  AMO,  |    |
++-------------------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: EnemyArmor at location: 7, health:1, range:1, team:2 ; from location:6
+Agent action completed
++---------------------------------------------------------------------------+
+|  0  | 1        | 2  | 3      | 4  | 5  | 6  | 7        | 8  | 9      | 10  |
+|     |  PLR_T,  |    |  AMO,  |    |    |    |  ENM_T,  |    |  AMO,  |    |
++---------------------------------------------------------------------------+
+Agent movement: BattleTank at location: 3, health:1, range:2, team:1 ; from location:1
+Agent action completed
++---------------------------------------------------------------------------+
+|  0  | 1  | 2  | 3            | 4  | 5  | 6  | 7        | 8  | 9      | 10  |
+|     |    |    |  AMO,PLR_T,  |    |    |    |  ENM_T,  |    |  AMO,  |    |
++---------------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: EnemyArmor at location: 8, health:1, range:1, team:2 ; from location:7
+Agent action completed
++---------------------------------------------------------------------------+
+|  0  | 1  | 2  | 3            | 4  | 5  | 6  | 7  | 8        | 9      | 10  |
+|     |    |    |  AMO,PLR_T,  |    |    |    |    |  ENM_T,  |  AMO,  |    |
++---------------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: BattleTank at location: 4, health:1, range:2, team:1 ; from location:3
+Agent action completed
++-----------------------------------------------------------------------+
+|  0  | 1  | 2  | 3  | 4        | 5  | 6  | 7  | 8        | 9      | 10  |
+|     |    |    |    |  PLR_T,  |    |    |    |  ENM_T,  |  AMO,  |    |
++-----------------------------------------------------------------------+
+Agent movement: EnemyArmor at location: 9, health:1, range:1, team:2 ; from location:8
+Agent action completed
++-----------------------------------------------------------------------+
+|  0  | 1  | 2  | 3  | 4        | 5  | 6  | 7  | 8  | 9            | 10  |
+|     |    |    |    |  PLR_T,  |    |    |    |    |  AMO,ENM_T,  |    |
++-----------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: BattleTank at location: 3, health:1, range:2, team:1 ; from location:4
+Agent action completed
++-----------------------------------------------------------------------+
+|  0  | 1  | 2  | 3        | 4  | 5  | 6  | 7  | 8  | 9            | 10  |
+|     |    |    |  PLR_T,  |    |    |    |    |    |  AMO,ENM_T,  |    |
++-----------------------------------------------------------------------+
+Prioritizing highest profit location : profit = (target_location_items_priority - health damage dealt in past at the location)
+Agent movement: EnemyArmor at location: 8, health:1, range:1, team:2 ; from location:9
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2  | 3        | 4  | 5  | 6  | 7  | 8        | 9  | 10  |
+|     |    |    |  PLR_T,  |    |    |    |    |  ENM_T,  |    |    |
++-------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: BattleTank at location: 2, health:1, range:2, team:1 ; from location:3
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2        | 3  | 4  | 5  | 6  | 7  | 8        | 9  | 10  |
+|     |    |  PLR_T,  |    |    |    |    |    |  ENM_T,  |    |    |
++-------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: EnemyArmor at location: 9, health:1, range:1, team:2 ; from location:8
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2        | 3  | 4  | 5  | 6  | 7  | 8  | 9        | 10  |
+|     |    |  PLR_T,  |    |    |    |    |    |    |  ENM_T,  |    |
++-------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: BattleTank at location: 3, health:1, range:2, team:1 ; from location:2
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2  | 3        | 4  | 5  | 6  | 7  | 8  | 9        | 10  |
+|     |    |    |  PLR_T,  |    |    |    |    |    |  ENM_T,  |    |
++-------------------------------------------------------------------+
+Prioritizing highest profit location : profit = (target_location_items_priority - health damage dealt in past at the location)
+Agent movement: EnemyArmor at location: 8, health:1, range:1, team:2 ; from location:9
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2  | 3        | 4  | 5  | 6  | 7  | 8        | 9  | 10  |
+|     |    |    |  PLR_T,  |    |    |    |    |  ENM_T,  |    |    |
++-------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: BattleTank at location: 4, health:1, range:2, team:1 ; from location:3
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2  | 3  | 4        | 5  | 6  | 7  | 8        | 9  | 10  |
+|     |    |    |    |  PLR_T,  |    |    |    |  ENM_T,  |    |    |
++-------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: EnemyArmor at location: 7, health:1, range:1, team:2 ; from location:8
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2  | 3  | 4        | 5  | 6  | 7        | 8  | 9  | 10  |
+|     |    |    |    |  PLR_T,  |    |    |  ENM_T,  |    |    |    |
++-------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: BattleTank at location: 5, health:1, range:2, team:1 ; from location:4
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2  | 3  | 4  | 5        | 6  | 7        | 8  | 9  | 10  |
+|     |    |    |    |    |  PLR_T,  |    |  ENM_T,  |    |    |    |
++-------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: EnemyArmor at location: 6, health:1, range:1, team:2 ; from location:7
+Agent action completed
++-------------------------------------------------------------------+
+|  0  | 1  | 2  | 3  | 4  | 5        | 6        | 7  | 8  | 9  | 10  |
+|     |    |    |    |    |  PLR_T,  |  ENM_T,  |    |    |    |    |
++-------------------------------------------------------------------+
+EnemyArmor at location: 6, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:1, range:2, team:1
+EnemyArmor at location: 6, health:0, range:1, team:2 died
+Agent action completed
+Good Player Won
++-------------------------------------------------------------+
+|  0  | 1  | 2  | 3  | 4  | 5        | 6  | 7  | 8  | 9  | 10  |
+|     |    |    |    |    |  PLR_T,  |    |    |    |    |    |
++-------------------------------------------------------------+
+
+Process finished with exit code 0

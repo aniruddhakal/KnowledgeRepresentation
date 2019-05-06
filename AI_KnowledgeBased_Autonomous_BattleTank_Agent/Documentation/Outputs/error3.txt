@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 472, in <module>
+    main()
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 458, in main
+    bg.offerPlayerTurn()
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 430, in offerPlayerTurn
+    good_player_agent.play_a_move(environment=self)
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 61, in play_a_move
+    action, location = self.get_next_action_and_location(target_path, priorities)
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 95, in get_next_action_and_location
+    target_location = target_path[sorted_priorities][0]
+IndexError: index 3 is out of bounds for axis 1 with size 2
+Inserted the BattleTank at location 5, range = 9
+Inserted the EnemyArmor at location 9, range = 1
+Inserted the Hurdle at location 3
+Inserted the Hurdle at location 6
+Inserted the Hurdle at location 1
+Inserted the Ammo at location 8
+Inserted the Ammo at location 0
+Hurdle at location: 6, health:0 dealt -1 damage from BattleTank at location: 5, health:1, range=9, team=1
+Hurdle at location: 6, health:0 was destroyed by BattleTank at location: 5, health:1, range=9, team=1
+Agent moved from location 5 to location 6
+Agent action completed
+Agent moved from location 9 to location 8
+Agent action completed

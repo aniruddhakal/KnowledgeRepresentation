@@ -1,0 +1,25 @@
+Inserted the BattleTank at location 0, range = 9
+Traceback (most recent call last):
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 472, in <module>
+    main()
+Inserted the EnemyArmor at location 9, range = 1
+Inserted the Hurdle at location 3
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 458, in main
+Inserted the Hurdle at location 2
+    bg.offerPlayerTurn()
+Inserted the Hurdle at location 4
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 437, in offerPlayerTurn
+Inserted the Ammo at location 1
+    enemy_agent.play_a_move(environment=self)
+Inserted the Ammo at location 8
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 61, in play_a_move
+    action, location = self.get_next_action_and_location(target_path, priorities)
+Hurdle at location: 2, health:0 dealt -1 damage from BattleTank at location: 0, health:1, range=9, team=1
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 109, in get_next_action_and_location
+    elif self.is_enemy(target):
+Hurdle at location: 2, health:0 was destroyed by BattleTank at location: 0, health:1, range=9, team=1
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 120, in is_enemy
+Agent moved from location 0 to location 2
+    return self.team != thing.team
+Agent action completed
+AttributeError: 'AmmoType' object has no attribute 'team'

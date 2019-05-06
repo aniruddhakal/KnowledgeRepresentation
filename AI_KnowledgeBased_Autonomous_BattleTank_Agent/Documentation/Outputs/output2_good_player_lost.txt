@@ -1,0 +1,16 @@
+/home/aniruddha/anaconda3/bin/python3.7 /mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py
+Inserted the BattleTank at location 1, range = 9
+Inserted the EnemyArmor at location 3, range = 1
+Inserted the Hurdle at location 0
+Inserted the Hurdle at location 2
+Inserted the Hurdle at location 5
+Inserted the Ammo at location 6
+Inserted the Ammo at location 4
+Hurdle at location 2 dealt -1 damage from BattleTank, location 1
+Hurdle at location 2 was destroyed by BattleTank at location 1
+Agent moved from location 1 to location 2
+Agent action completed
+BattleTank from team1, location 2 took 1 damage from EnemyArmor at location 3
+BattleTank from team1 died at location 2.
+Agent action completed
+Good Player Lost

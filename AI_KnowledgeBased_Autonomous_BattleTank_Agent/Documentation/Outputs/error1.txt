@@ -1,0 +1,36 @@
+/home/aniruddha/anaconda3/bin/python3.7 /mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py
+Traceback (most recent call last):
+Inserted the BattleTank at location 0, range = 9
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 477, in <module>
+Inserted the EnemyArmor at location 7, range = 1
+    main()
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 463, in main
+    bg.offerPlayerTurn()
+Inserted the Hurdle at location 1
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py", line 442, in offerPlayerTurn
+Inserted the Hurdle at location 4
+    enemy_agent.play_a_move(environment=self)
+Inserted the Hurdle at location 8
+Inserted the Ammo at location 9
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 61, in play_a_move
+Ammo cannot be inserted at location 9 because something already exists there.
+    action, location = self.get_next_action_and_location(target_path, priorities)
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 109, in get_next_action_and_location
+Hurdle at location: 1, health:0 dealt -1 damage from <bound method ArmoredVehicleAgent.get_stats of <environment.entities.agents.BattleTankAgent.BattleTankAgent object at 0x7f30538c97f0>>
+    elif self.is_enemy(target):
+Hurdle at location: 1, health:0 was destroyed by <bound method ArmoredVehicleAgent.get_stats of <environment.entities.agents.BattleTankAgent.BattleTankAgent object at 0x7f30538c97f0>>
+  File "/mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/entities/agents/ArmoredVehicleAgent.py", line 120, in is_enemy
+Agent moved from location 0 to location 1
+    return self.team != thing.team
+Agent action completed
+AttributeError: 'AmmoType' object has no attribute 'team'
+Hurdle at location: 8, health:0 dealt -1 damage from <bound method ArmoredVehicleAgent.get_stats of <environment.entities.agents.EnemyArmorAgent.EnemyArmorAgent object at 0x7f3053a298d0>>
+Hurdle at location: 8, health:0 was destroyed by <bound method ArmoredVehicleAgent.get_stats of <environment.entities.agents.EnemyArmorAgent.EnemyArmorAgent object at 0x7f3053a298d0>>
+Agent moved from location 7 to location 8
+Agent action completed
+Hurdle at location: 4, health:0 dealt -1 damage from <bound method ArmoredVehicleAgent.get_stats of <environment.entities.agents.BattleTankAgent.BattleTankAgent object at 0x7f30538c97f0>>
+Hurdle at location: 4, health:0 was destroyed by <bound method ArmoredVehicleAgent.get_stats of <environment.entities.agents.BattleTankAgent.BattleTankAgent object at 0x7f30538c97f0>>
+Agent moved from location 1 to location 4
+Agent action completed
+
+Process finished with exit code 1

@@ -1,0 +1,16 @@
+Inserted the BattleTank at location 4
+Inserted the EnemyArmor at location 6
+Inserted the Hurdle at location 9
+Inserted the Hurdle at location 5
+Inserted the Ammo at location 2
+Inserted the Ammo at location 0
+Hurdle at location 5 dealt -1 damage.
+Agent action completed
+Hurdle at location 5 dealt -1 damage.
+Hurdle at location 5 was destroyed by EnemyArmor at location 6
+Agent moved from location 6 to location 5
+Agent action completed
+EnemyArmor from team2, location 5 took 1 damage from BattleTank at location 4
+EnemyArmor from team2 died at location 5.
+Agent action completed
+Good Player Won

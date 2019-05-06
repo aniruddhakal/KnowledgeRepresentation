@@ -1,0 +1,20 @@
+/home/aniruddha/anaconda3/bin/python3.7 /mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py
+Inserted the BattleTank at location: 5, health:1, range:2, team:1
+Inserted the EnemyArmor at location: 1, health:1, range:1, team:2
+Inserted the Ammo at location: 8, health:1
+Agent movement: BattleTank at location: 4, health:1, range:2, team:1 ; from location:5
+Agent action completed
+Agent movement: EnemyArmor at location: 0, health:1, range:1, team:2 ; from location:1
+Agent action completed
+Agent movement: BattleTank at location: 5, health:1, range:2, team:1 ; from location:4
+Agent action completed
+Agent movement: EnemyArmor at location: 1, health:1, range:1, team:2 ; from location:0
+Agent action completed
+Agent movement: BattleTank at location: 4, health:1, range:2, team:1 ; from location:5
+Agent action completed
+Agent movement: EnemyArmor at location: 2, health:1, range:1, team:2 ; from location:1
+Agent action completed
+EnemyArmor at location: 2, health:0, range:1, team:2 took 1 damage from BattleTank at location: 4, health:1, range:2, team:1
+EnemyArmor at location: 2, health:0, range:1, team:2 died
+Agent action completed
+Good Player Won

@@ -1,0 +1,37 @@
+/home/aniruddha/anaconda3/bin/python3.7 /mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py
+Inserted the BattleTank at location: 4, health:1, range:2, team:1
+Inserted the EnemyArmor at location: 0, health:1, range:1, team:2
+Inserted the Ammo at location: 3, health:1
+Inserted the Ammo at location: 5, health:1
+Inserted the Ammo at location: 6, health:1
+Ammo cannot be inserted at location 6 because something already exists there.
+Ammo cannot be inserted at location 5 because something already exists there.
+Inserted the Ammo at location: 2, health:1
+Ammo cannot be inserted at location 6 because something already exists there.
++-----------------------------------------------------------------------------------+
+|  0        | 1  | 2      | 3      | 4        | 5      | 6      | 7  | 8  | 9  | 10  |
+|   ENM_T,  |    |  AMO,  |  AMO,  |  PLR_T,  |  AMO,  |  AMO,  |    |    |    |    |
++-----------------------------------------------------------------------------------+
+Agent movement: BattleTank at location: 3, health:1, range:2, team:1 ; from location:4
+Agent action completed
++-----------------------------------------------------------------------------------+
+|  0        | 1  | 2      | 3            | 4  | 5      | 6      | 7  | 8  | 9  | 10  |
+|   ENM_T,  |    |  AMO,  |  AMO,PLR_T,  |    |  AMO,  |  AMO,  |    |    |    |    |
++-----------------------------------------------------------------------------------+
+Prioritizing unexplored location as target location
+Agent movement: EnemyArmor at location: 1, health:1, range:1, team:2 ; from location:0
+Agent action completed
++-----------------------------------------------------------------------------------+
+|  0  | 1        | 2      | 3            | 4  | 5      | 6      | 7  | 8  | 9  | 10  |
+|     |  ENM_T,  |  AMO,  |  AMO,PLR_T,  |    |  AMO,  |  AMO,  |    |    |    |    |
++-----------------------------------------------------------------------------------+
+EnemyArmor at location: 1, health:0, range:1, team:2 took 1 damage from BattleTank at location: 3, health:1, range:2, team:1
+EnemyArmor at location: 1, health:0, range:1, team:2 died
+Agent action completed
+Good Player Won
++-------------------------------------------------------------------------+
+|  0  | 1  | 2      | 3        | 4  | 5      | 6      | 7  | 8  | 9  | 10  |
+|     |    |  AMO,  |  PLR_T,  |    |  AMO,  |  AMO,  |    |    |    |    |
++-------------------------------------------------------------------------+
+
+Process finished with exit code 0

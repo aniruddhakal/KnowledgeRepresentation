@@ -1,0 +1,82 @@
+/home/aniruddha/anaconda3/bin/python3.7 /mnt/D_Drive/workspace/artificialintelligencecourse/KnowledgeRepresentation/Project1_BattleTank/environment/BattleGround1DEnvironment.py
+Inserted the BattleTank at location: 9, health:25, range:9, team:1
+Inserted the EnemyArmor at location: 4, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 1, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 6, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 7, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 8, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 5, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 2, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 0, health:1, range:1, team:2
+Inserted the EnemyArmor at location: 3, health:1, range:1, team:2
+Cannot insert the Hurdle as no location is available
+Cannot insert the Hurdle as no location is available
+Inserted the Ammo at location: 3, health:1
+Inserted the Ammo at location: 9, health:1
+Inserted the Ammo at location: 1, health:1
+Inserted the Ammo at location: 5, health:1
+Inserted the Ammo at location: 2, health:1
+Ammo cannot be inserted at location 9 because something already exists there.
+Inserted the Ammo at location: 4, health:1
+Ammo cannot be inserted at location 5 because something already exists there.
+Inserted the Ammo at location: 6, health:1
+Ammo cannot be inserted at location 9 because something already exists there.
+Inserted the Ammo at location: 7, health:1
+Ammo cannot be inserted at location 2 because something already exists there.
+Ammo cannot be inserted at location 1 because something already exists there.
+Inserted the Ammo at location: 0, health:1
+Ammo cannot be inserted at location 9 because something already exists there.
+Inserted the Ammo at location: 8, health:1
+Ammo cannot be inserted at location 9 because something already exists there.
+Ammo cannot be inserted at location 3 because something already exists there.
+Ammo cannot be inserted at location 3 because something already exists there.
+Agent movement: BattleTank at location: 8, health:25, range:9, team:1 ; from location:9
+Agent action completed
+Agent movement: EnemyArmor at location: 3, health:1, range:1, team:2 ; from location:4
+Agent action completed
+Agent movement: BattleTank at location: 7, health:25, range:9, team:1 ; from location:8
+Agent action completed
+Agent movement: EnemyArmor at location: 0, health:1, range:1, team:2 ; from location:1
+Agent action completed
+Agent movement: BattleTank at location: 6, health:25, range:9, team:1 ; from location:7
+Agent action completed
+Agent movement: EnemyArmor at location: 3, health:1, range:1, team:2 ; from location:2
+Agent action completed
+Agent movement: BattleTank at location: 5, health:25, range:9, team:1 ; from location:6
+Agent action completed
+Agent action completed
+EnemyArmor at location: 3, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:25, range:9, team:1
+EnemyArmor at location: 3, health:0, range:1, team:2 died
+Agent action completed
+Agent action completed
+EnemyArmor at location: 3, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:25, range:9, team:1
+EnemyArmor at location: 3, health:0, range:1, team:2 died
+Agent action completed
+Agent action completed
+EnemyArmor at location: 3, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:25, range:9, team:1
+EnemyArmor at location: 3, health:0, range:1, team:2 died
+Agent action completed
+EnemyArmor at location: 5, health:0, range:1, team:2 took 1 damage from EnemyArmor at location: 6, health:1, range:1, team:2
+EnemyArmor at location: 5, health:0, range:1, team:2 died
+Agent action completed
+EnemyArmor at location: 0, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:25, range:9, team:1
+EnemyArmor at location: 0, health:0, range:1, team:2 died
+Agent action completed
+Agent action completed
+EnemyArmor at location: 0, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:25, range:9, team:1
+EnemyArmor at location: 0, health:0, range:1, team:2 died
+Agent action completed
+BattleTank at location: 5, health:24, range:9, team:1 took 1 damage from EnemyArmor at location: 6, health:1, range:1, team:2
+Agent action completed
+EnemyArmor at location: 6, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:24, range:9, team:1
+EnemyArmor at location: 6, health:0, range:1, team:2 died
+Agent action completed
+Agent action completed
+EnemyArmor at location: 7, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:24, range:9, team:1
+EnemyArmor at location: 7, health:0, range:1, team:2 died
+Agent action completed
+Agent action completed
+EnemyArmor at location: 8, health:0, range:1, team:2 took 1 damage from BattleTank at location: 5, health:24, range:9, team:1
+EnemyArmor at location: 8, health:0, range:1, team:2 died
+Agent action completed
+Good Player Won
